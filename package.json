@@ -1,0 +1,21 @@
+{
+  "name": "dsh-rea-mcp-toggle",
+  "version": "0.1.1",
+  "description": "Toggle the local REA MCP server from DeepSeek Harness Plugins",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seventeenlyc/dsh-rea-mcp-toggle.git"
+  },
+  "keywords": ["dsh", "deepseek-harness", "rea", "mcp", "plugin"],
+  "files": [
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
