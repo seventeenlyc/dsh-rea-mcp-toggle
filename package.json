@@ -1,7 +1,7 @@
 {
   "name": "dsh-rea-mcp-toggle",
-  "version": "0.1.1",
-  "description": "Toggle the local REA MCP server from DeepSeek Harness Plugins",
+  "version": "0.2.0",
+  "description": "Toggle REA MCP tools from the DeepSeek Harness Plugins page",
   "license": "MIT",
   "repository": {
     "type": "git",

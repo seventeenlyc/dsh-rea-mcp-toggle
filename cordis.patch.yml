@@ -4,7 +4,8 @@
       config:
         serverName: rea
         transport: stdio
-        command: C:\Program Files\nodejs\node.exe
+        command: npx
         args:
-          - D:\rea\scripts\rea.mjs
+          - -y
+          - rea-agents@6.5.0
           - mcp
